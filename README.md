@@ -33,4 +33,18 @@ Increases Conversion Rates: By focusing on high-scoring leads first, sales teams
 
 Reduces Manual Qualification Time: Automated scoring eliminates hours of manual lead research and qualification.
 
+# 🎯 Intelligent Lead Scoring Engine
+
+An AI-powered lead scoring and prioritization tool designed to enhance the SaaSQuatch Leads platform. This solution addresses the critical challenge of lead quality over quantity by automatically scoring and ranking prospects based on multiple conversion factors.
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+
+- Required packages: `pandas`, `numpy`, `scikit-learn`, `requests`, `beautifulsoup4`
+
+### Installation
+```bash
+pip install pandas numpy scikit-learn requests beautifulsoup4
+
 Scalable Intelligence: The AI model improves over time as it learns from successful conversions.
