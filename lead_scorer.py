@@ -5,13 +5,7 @@ An AI-powered lead scoring and prioritization tool
 """
 
 import pandas as pd
-import numpy as np
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-import requests
-from bs4 import BeautifulSoup
-import json
-from typing import Dict, List, Optional
+from typing import Dict, List
 import warnings
 
 warnings.filterwarnings('ignore')
@@ -23,9 +17,7 @@ class LeadScorer:
     """
     
     def __init__(self):
-        self.scaler = StandardScaler()
-        self.model = None
-        self.feature_names = []
+        pass
         
     def calculate_firmographic_score(self, lead: Dict) -> float:
         """
