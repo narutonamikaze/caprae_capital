@@ -45,6 +45,31 @@ An AI-powered lead scoring and prioritization tool designed to enhance the SaaSQ
 
 ### Installation
 ```bash
-pip install pandas numpy scikit-learn requests beautifulsoup4
+pip install -r requirements.txt
+```
 
-Scalable Intelligence: The AI model improves over time as it learns from successful conversions.
+### Usage
+```python
+from src.lead_scorer import LeadScorer
+
+# Initialize the scorer
+scorer = LeadScorer()
+
+# Score a lead
+lead_data = {
+    'company_name': 'Example Corp',
+    'revenue_range': '10M-50M',
+    'industry': 'Technology',
+    'employee_count': 150,
+    'website': 'https://example.com',
+    'contact_email': 'ceo@example.com'
+}
+
+score = scorer.score_lead(lead_data)
+print(f"Lead Score: {score}")
+```
+
+## 📊 Features
+
+### Scalable Intelligence
+The AI model improves over time as it learns from successful conversions.
