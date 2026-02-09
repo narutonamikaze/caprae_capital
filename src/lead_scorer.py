@@ -7,8 +7,7 @@ This module implements an AI-powered lead scoring system that evaluates leads ba
 - Contact quality assessment
 """
 
-import numpy as np
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 
 
 class LeadScorer:
